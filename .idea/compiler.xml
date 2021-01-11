@@ -6,11 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="belajar-apache-maven" />
+        <module name="belajar-apache-maven-app" />
+        <module name="belajar-apache-maven-data" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="belajar-apache-maven" target="11" />
+      <module name="belajar-apache-maven-app" target="11" />
+      <module name="belajar-apache-maven-data" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>
