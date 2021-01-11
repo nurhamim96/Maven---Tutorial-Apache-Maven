@@ -15,11 +15,20 @@
     <artifactId>belajar-apache-maven-app</artifactId>
 
 <!--    CONTOH MENAMBAHKAN DARI MODULE LAIN -->
+<!--    NOTE : TIDAK USAH MENAMBAHKAN VERSION KARENA UDAH DI BUNGKUS DENGAN <dependencyManagement></dependencyManagement> PADA PARENT NYA, JADI OTOMATIS VERSION NYA NGIKUTIN PARENNYA-->
     <dependencies>
         <dependency>
             <groupId>com.tutorial</groupId>
             <artifactId>belajar-apache-maven-data</artifactId>
-            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.google.code.gson</groupId>
+            <artifactId>gson</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <scope>test</scope>
         </dependency>
     </dependencies>
 
